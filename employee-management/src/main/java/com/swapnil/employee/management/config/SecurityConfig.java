@@ -36,7 +36,10 @@ public class SecurityConfig {
 
         // Allow React frontend
         configuration.setAllowedOrigins(
-                List.of("http://localhost:5173")
+                List.of(
+                        "http://localhost:5173",
+                        "https://ai-employee-management-system-2.onrender.com"
+                )
         );
 
         // Allowed HTTP methods
