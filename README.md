@@ -70,7 +70,16 @@ Based on the provided employee data, Swapnil Jain has the highest salary.
 The application uses JWT authentication to protect employee-management APIs.
 
 Users must register and log in before accessing protected functionality.
+## 📸 Screenshots
 
+
+
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/22b3cc58-5da9-48f8-8b8e-4dc69a5a8c27" />
+
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/84a7ccd3-292e-41a0-aba9-eab12123d50e" />
+
+
+https://ai-employee-management-system-2.onrender.com/
 
 
 ### Backend
