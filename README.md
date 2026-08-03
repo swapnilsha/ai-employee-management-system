@@ -71,18 +71,7 @@ The application uses JWT authentication to protect employee-management APIs.
 
 Users must register and log in before accessing protected functionality.
 
-## 📸 Screenshots
 
-### Login
-[Add login screenshot]
-
-### Dashboard
-[Add dashboard screenshot]
-
-### AI Assistant
-[Add AI Assistant screenshot]
-
-## ⚙️ Running Locally
 
 ### Backend
 
