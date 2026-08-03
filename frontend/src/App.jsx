@@ -70,7 +70,7 @@ function App() {
     const loadEmployees = async () => {
         try {
             const response = await fetch(
-                "http://localhost:8080/employees",
+                "https://ai-employee-management-system-1.onrender.com/employees",
                 {
                     method: "GET",
 
@@ -155,7 +155,7 @@ function App() {
     const handleAddEmployee = async () => {
         try {
             const response = await fetch(
-                "http://localhost:8080/employees",
+                "https://ai-employee-management-system-1.onrender.com/employees",
                 {
                     method: "POST",
 
@@ -223,7 +223,7 @@ function App() {
     const handleUpdateEmployee = async () => {
         try {
             const response = await fetch(
-                `http://localhost:8080/employees/${editingId}`,
+                `https://ai-employee-management-system-1.onrender.com/employees/${editingId}`,
                 {
                     method: "PUT",
 
@@ -293,7 +293,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:8080/employees/${id}`,
+                `https://ai-employee-management-system-1.onrender.com/employees/${id}`,
                 {
                     method: "DELETE",
 
@@ -335,7 +335,7 @@ function App() {
 
         try {
             const response = await fetch(
-                "http://localhost:8080/ai/ask",
+                "https://ai-employee-management-system-1.onrender.com/ai/ask",
                 {
                     method: "POST",
 

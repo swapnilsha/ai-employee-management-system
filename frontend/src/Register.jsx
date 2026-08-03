@@ -17,7 +17,7 @@ function Register({ onBackToLogin }) {
 
         try {
             const response = await fetch(
-                "http://localhost:8080/auth/register",
+                "https://ai-employee-management-system-1.onrender.com/auth/register",
                 {
                     method: "POST",
                     headers: {

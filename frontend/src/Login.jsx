@@ -12,7 +12,7 @@ function Login({ onLogin, onRegister }) {
         try {
 
             const response = await fetch(
-                "http://localhost:8080/auth/login",
+                "https://ai-employee-management-system-1.onrender.com/auth/login",
                 {
                     method: "POST",
                     headers: {
