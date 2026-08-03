@@ -1,131 +1,99 @@
 # 🤖 AI Employee Management System
 
-A full-stack Employee Management System built using **Spring Boot, React, SQL Server, JWT Authentication, and AI integration**.
+A full-stack Employee Management System with secure JWT authentication,
+employee CRUD operations, dashboard analytics, and an AI-powered assistant
+for querying employee data using natural language.
 
-The application allows users to securely manage employee records and interact with employee data using an AI-powered assistant.
+## 🚀 Live Demo
+
+Frontend: <your Render frontend link>
+Backend API: <your Render backend link>
+Swagger API Documentation: <your backend>/swagger-ui/index.html
 
 ## ✨ Features
 
-- 🔐 User Registration and Login
-- 🔑 JWT-based Authentication
-- 👥 Add, View, Update and Delete Employees
-- 🔍 Search Employees
-- 📊 Employee Statistics Dashboard
-- 🤖 AI Employee Assistant
-- 💬 Ask natural-language questions about employee data
-- 🛡️ Spring Security
-- 📚 REST API documentation using Swagger/OpenAPI
-- 💾 SQL Server database integration
-- ⚛️ Responsive React frontend
-
-## 🤖 AI Employee Assistant
-
-The system includes an AI assistant that can analyze employee information and answer questions such as:
-
-- Who has the highest salary?
-- Who has the lowest salary?
-- How many employees are there?
-- Which employee works as a developer?
-- Give me information about a particular employee.
-
-The backend provides employee data as context to the AI service and returns the generated answer to the React frontend.
+- User Registration and Login
+- JWT-based Authentication
+- Add, View, Update and Delete Employees
+- Employee Search
+- Dashboard Statistics
+- Average Salary Calculation
+- AI Employee Assistant
+- Natural-language queries about employee data
+- REST API
+- Responsive React UI
+- Cloud Deployment
 
 ## 🛠️ Tech Stack
 
-### Backend
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- Spring Security
-- JWT Authentication
-- REST APIs
-- Maven
-- Swagger / OpenAPI
-
 ### Frontend
-- React
+- React.js
 - JavaScript
 - HTML
 - CSS
 - Vite
 
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- JWT
+- Spring Data JPA
+- REST APIs
+
 ### Database
-- Microsoft SQL Server
+- PostgreSQL
 
 ### AI
-- AI API integration
-- Natural-language employee data queries
+- Google Gemini API
 
-## 📁 Project Structure
+### Deployment
+- Render
+- Docker
+- Git & GitHub
 
-```text
-ai-employee-management-system/
-│
-├── employee-management/     # Spring Boot Backend
-│   ├── src/
-│   └── pom.xml
-│
-├── frontend/                # React Frontend
-│   ├── src/
-│   └── package.json
-│
-└── .gitignore
-```
+## 🤖 AI Employee Assistant
 
-## 🔐 Security
+The application includes an AI assistant that analyzes employee information
+and answers questions in natural language.
 
-The application uses JWT authentication to protect secured API endpoints.
+Example:
 
-Sensitive information such as database credentials and AI API keys is configured using environment variables and is not committed to the repository.
+Question:
+Who has the highest salary?
 
-## 🚀 Running the Project
+AI Answer:
+Based on the provided employee data, Swapnil Jain has the highest salary.
+
+## 🔐 Authentication
+
+The application uses JWT authentication to protect employee-management APIs.
+
+Users must register and log in before accessing protected functionality.
+
+## 📸 Screenshots
+
+### Login
+[Add login screenshot]
+
+### Dashboard
+[Add dashboard screenshot]
+
+### AI Assistant
+[Add AI Assistant screenshot]
+
+## ⚙️ Running Locally
 
 ### Backend
 
-Configure the required environment variables:
-
-```text
-DB_URL
-DB_USERNAME
-DB_PASSWORD
-GEMINI_API_KEY
-```
-
-Then run the Spring Boot application.
+mvn spring-boot:run
 
 ### Frontend
 
-Navigate to the frontend directory:
-
-```bash
 cd frontend
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
-```
-
-The frontend will run locally using Vite.
-
-## 📌 Future Improvements
-
-- Role-based authorization
-- Employee attendance management
-- Department management
-- Advanced analytics dashboard
-- Improved AI capabilities
-- Cloud deployment
 
 ## 👨‍💻 Author
 
-**Swapnil Jain**
-
-B.Tech Computer Science & Engineering
+Swapnil Jain
